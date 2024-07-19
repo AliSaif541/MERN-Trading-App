@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.Login {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+}
+
+.Title, .Headings, .Welcome {
+    color: #3751FE;
+    font-weight: 700;
+}
+
+.Title {
+    font-size: 30px;
+    padding-left: 50px;
+    align-self: end;
+}
+
+.Headings {
+    font-size: 30px;
+    text-align: center;
+    justify-self: center;
+}
+
+.Welcome {
+    font-size: 18px;
+    align-self: start;
+    text-align: center;
+    justify-self: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Input-Form {
+    align-self: start;
+    display: grid;
+}
+
+.input-div {
+    display: grid;
+    gap: 20px;
+}
+
+.custom-user-inp {
+    width: 300px;
+    justify-self: center;
+    border: 1px solid #e5e5e5;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.Form-Div {
+    display: grid;
+}
+
+.login-btn, .signup-btn {
+    width: 100px;
+    height: 35px;
+    margin-top: 25px;
+    justify-self: center;
+}
+
+.Link {
+    display: grid;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.custom-error {
+    justify-self: center;
+    color: black;
+}
+
+.login-btn {
+    background-color: #3751FE;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background-color: white;
+    color: #0C31F1;
+    border: 1.5px solid #3751FE;
+}
+
+.signup-btn:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+.change-password-container {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Headings-Change-Password {
+    font-size: 30px;
+    text-align: center;
+    justify-self: center;
+    color: white;
+}
+
+.Welcome-Change-Password {
+    font-size: 18px;
+    align-self: start;
+    text-align: center;
+    justify-self: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.login-btn-change {
+    width: 100px;
+    height: 35px;
+    margin-top: 25px;
+    justify-self: center;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}

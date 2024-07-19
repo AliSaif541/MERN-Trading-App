@@ -1,0 +1,97 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.transaction-detail-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.return-link {
+    display: block;
+    margin-bottom: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.transaction-heading {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.transaction-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.transaction-details,
+.accepting-terms,
+.profile-link {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.accepting-terms {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.offer-trade-btn {
+    display: block;
+    width: auto;
+    padding: 8px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.offer-trade-btn:hover {
+    background-color: #45a049;
+}
+
+.profile-link {
+    display: block;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+.offer-actions button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.offer-actions button:hover {
+    background-color: #e0e0e0;
+}
+
+.offer-accept-btn {
+    color: #4CAF50;
+}
+
+.offer-reject-btn {
+    color: #F44336;
+}
